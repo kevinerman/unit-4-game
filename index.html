@@ -2,55 +2,66 @@
 
 <head>
 
-<link rel="stylesheet" href="assets/css/reset.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
-
-<title> Crystal Game</title>
-</head>
-
-<body>
-
-<div class="jumbotron">
-    <center>
-    <h1 class="display-4"> Crystal Game</h1>
-    <h1 class ="display-3" id="randomDisplay"></h1>
-    </center>
-</div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col" id="crystalDisplay1">
-                <img src="assets/images/crystal.jpg">
-            </div>
-
-            <div class="col" id="crystalDisplay2">
-                <img src="assets/images/crystal.jpg">
-            </div>
-
-            <div class="col" id="crystalDisplay3">
-                <img src="assets/images/crystal.jpg">
-            </div>
-
-            <div class="col" id="crystalDisplay4">
-                <img src="assets/images/crystal.jpg">
-            </div>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+    <title> X-Men Game</title>
+    </head>
+    
+    <body>
+    
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col">
+        <h1 class="display-4" id="bossPower"> </h1>
+        <h1 class ="display-3" id="randomDisplay"></h1>
         </div>
-
-            <center>
-                <br>
-            <h1 class="display-4" id="userNumberDisplay"></h1>
-
-            <h2 class="display-4" id="winsDisplay"></h2>
-            <h2 class="display-4" id="lossesDisplay">
-            </center>
+          <div class="col">
+            <img id="bossImage" alt="" src="" >
         </div>
+      </div>
     </div>
-
-</div>
-
-<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type ="text/javascript" src="assets/javascript/javascript.js"></script>
-</body>
-
-</html>
+    
+        <div class="container">
+          <center>
+            <h4>Each Hero has a new random attack value each game!</h4>
+            <br>
+            <div class="row">
+                <div class="col" id="crystalDisplay1">
+                    <img src="assets/images/Cyclops_Dialogue_3.png">
+                </div>
+    
+                <div class="col" id="crystalDisplay2">
+                    <img src="assets/images/Wolverine_Dialogue_1.png">
+                </div>
+    
+                <div class="col" id="crystalDisplay3">
+                    <img src="assets/images/Storm_Dialogue_1.png">
+                </div>
+    
+                <div class="col" id="crystalDisplay4">
+                    <img src="assets/images/Beast_Dialogue_1.png">
+                </div>
+            </div>
+    
+                <center>
+                    <br>
+                  <h4> Match the power of the boss without going over to win! </h4>
+                  <h5> Can you defeat every boss? </h5>
+                <h1 class="display-4" id="userNumberDisplay"></h1>
+    
+                <h2 class="display-4" id="winsDisplay"></h2>
+                <h2 class="display-4" id="lossesDisplay">
+                </center>
+            </div>
+        </div>
+    
+    </div>
+    
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type ="text/javascript" src="assets/javascript/javascript.js"></script>
+    </body>
+    
+    </html>

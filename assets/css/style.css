@@ -1,4 +1,14 @@
 img {
-    height:175px;
+    height:125px;
     width:auto;
-};
+}
+
+#bossImage {
+  height: 250px;
+  width:auto;
+}
+
+.container {
+  color: yellow;
+  background: black;
+}
